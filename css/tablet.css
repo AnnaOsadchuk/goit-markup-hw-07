@@ -204,6 +204,7 @@
   .footer-cocontainer {
     flex-wrap: wrap;
     padding-left: 104px;
+    justify-content: flex-start;
   }
 
   .footer-subscribe-wrap {
@@ -218,6 +219,6 @@
     margin-bottom: 0;
   }
   .footer-input-email {
-  margin-bottom: 0;
-}
+    margin-bottom: 0;
+  }
 }
