@@ -214,10 +214,16 @@
   .footer-wrap-soc {
     margin-right: 80px;
   }
+  .footer-article {
+    margin-bottom: 0;
+  }
 
   /* ========================MODAL WINDOW==================== */
 
   .modal {
        height: 584px;
+  }
+  .footer-input-email {
+    margin-bottom: 0;
   }
 }

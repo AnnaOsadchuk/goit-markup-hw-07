@@ -214,11 +214,10 @@
     display: flex;
     gap: 24px;
   }
-
-  /* ========================MODAL WINDOW==================== */
-
-  .modal {
-    width: 408px;
-    height: 586px;
+  .footer-article {
+    margin-bottom: 0;
   }
+  .footer-input-email {
+  margin-bottom: 0;
+}
 }
