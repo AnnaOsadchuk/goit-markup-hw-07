@@ -263,7 +263,7 @@ body {
 .modal-menu-link-tel:focus {
   color: var(--hover-color);
   font-weight: 600;
-  font-size: 34px;
+  font-size: 8vw;
   line-height: 1.11;
   text-transform: capitalize;
   color: var(--accent-text-color);
@@ -522,7 +522,6 @@ margin: 0 auto;
   align-items: center;
 }
 
-
 /* =====================FOOTER SOC============================= */
 
 .footer-soc-title {
@@ -608,6 +607,9 @@ margin: 0 auto;
   border-radius: 4px;
   border: 1px solid transparent;
   transition: background-color var(--trans);
+  margin-right: auto;
+  margin-left: auto;
+
 }
 .footer-btn-submit:hover,
 .footer-btn-submit:focus {
@@ -642,7 +644,7 @@ margin: 0 auto;
   transform: translate(-50%, -50%);
   padding: 70px 24px;
 
-  width: 408px;
+  width: 91vw;
   height: 576px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -839,5 +841,8 @@ margin: 0 auto;
   }
   .section-doing {
     display: none;
+  }
+  .modal {
+    width: 392px;
   }
 }

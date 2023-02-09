@@ -214,9 +214,10 @@
     display: flex;
     gap: 24px;
   }
-}
-/* @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-cocontainer {
-    flex-wrap: wrap;
+
+  /* ========================MODAL WINDOW==================== */
+
+  .modal {
+    width: 408px;
   }
-} */
+}
