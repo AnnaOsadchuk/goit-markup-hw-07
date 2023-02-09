@@ -165,11 +165,23 @@
   }
 
   /* =============FOOTER ==============*/
+  .footer {
+    text-align: left;
+  }
+
+  .footer-wrap-logo {
+    /* margin-right: auto; */
+  }
   .footer-mob {
     display: none;
   }
   .footer-cocontainer {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 24px;
+    row-gap: 72px;
   }
   .footer-wrap-soc {
     min-width: 208px;
@@ -179,12 +191,21 @@
   }
   .footer-article {
     max-width: 264px;
+    margin-bottom: 0;
   }
+
+  /* .footer-cocontainer {
+    
+    flex-direction: none;
+    align-items: none;
+  } */
 
   /* ===========================FOOTER INPUT================== */
   .footer-cocontainer {
     flex-wrap: wrap;
+    padding-left: 104px;
   }
+
   .footer-subscribe-wrap {
     min-width: 452px;
     height: 80px;
