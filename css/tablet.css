@@ -35,25 +35,6 @@
     align-items: center;
     gap: 40px;
   }
-  .header-list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 4px;
-    align-items: center;
-    margin-left: auto;
-    color: var(--main-color);
-  }
-
-  .logo {
-    font-family: 'Raleway', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-  }
 
   .header {
     font-weight: 700;
